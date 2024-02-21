@@ -1,6 +1,8 @@
 {
   "name": "@tomnpm/oc-wh-modal",
-  "description": "Modal pour projet React",
+  "author": "Thomas Leconte",
+  "version": "0.0.1",
+  "description": "Plugin Modal en React pour le projet Wealth Healt",
   "main": "dist/index.js",
   "files": [
     "dist",
@@ -9,7 +11,7 @@
   "module": "dist/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "rd /s /q dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "clean": "rm -rf dist coverage",
     "clean:fix": "rm -rf node_modules coverage build dist docs package-lock.json"
   },
