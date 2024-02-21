@@ -1,7 +1,7 @@
 {
   "name": "oc-wh-modal",
   "author": "Thomas Leconte",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Plugin Modal en React pour le projet Wealth Healt",
   "main": "dist/index.js",
   "files": [
