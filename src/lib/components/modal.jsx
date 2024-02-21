@@ -1,7 +1,9 @@
 // import '../App.css'
-import './modal.css'
-import checkImage from '../assets/check.png'
-import crossImage from '../assets/remove.png'
+import "./modal.css";
+import PropTypes from "prop-types";
+import React from "react";
+import checkImage from "../assets/check.png";
+import crossImage from "../assets/remove.png";
 
 function Modal({ onClose, etat }) {
 return (
@@ -26,6 +28,12 @@ return (
         </div>
       )}
     </>
-)
+);
 }
-export default Modal
+
+Modal.propTypes = {
+  onClose: PropTypes.func.isRequired,
+  etat: PropTypes.bool.isRequired
+};
+
+export default Modal;
