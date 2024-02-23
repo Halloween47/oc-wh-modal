@@ -38,4 +38,4 @@ Explication of how to use this library and what it does
 
 - [react-datepicker](https://www.npmjs.com/package/react-datepicker)
 - [react-select](https://www.npmjs.com/package/react-select)
-- [@tanstack/react-table](https://tanstack.com/table/latest/docs/installation)
+- [React Data Table Component](https://react-data-table-component.netlify.app/?path=/docs/getting-started-intro--docs)
