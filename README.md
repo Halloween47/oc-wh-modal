@@ -1,28 +1,39 @@
-# Project Name
+# Modal-component-library
+
+Library of React components created using `create-react-app`.
+
+## Prerequisites :
+
+![npm](https://img.shields.io/badge/npm-10.2.3-%23000000?style=flat-square&logo=npm&logoColor=white)
+
+![Node.js](https://img.shields.io/badge/Node.js-18.19.0-43853D?style=flat-square&logo=node.js&logoColor=white)
+
+- [Node.js](https://nodejs.org/en/)
+- `Npm` or `Yarn`
+- `Visual studio` code or similare
+
+## Description:
+
+A simple React modal menu component
 
 ## Installing the package
 
-1. **Clone this repository**
-git clone https://github.com/Halloween47/oc-wh-modal.git
+## Installation:
 
-2. **Install the dependencies**
-npm install
+### Package installation
 
-3. **Launch the app**
-- In the terminal, run the command:
-  ```
-  yarn dev
-  ```
-- To view the app, click with the control key pressed on the Local link: [http://127.0.0.1:51xx/](http://127.0.0.1:51xx/)
+Run the followings commands with npm or yarn:
 
-NB: This app uses Vite as a toolbox.
+    $ npm install oc-wh-modal
 
-4. **Build and Preview**
-- In the terminal, run the commands:
-  ```
-  yarn build
-  yarn preview
-  ```
+### Import in your project
+
+```jsx
+import Modal from 'oc-wh-modal';
+```
+### Simple example of using:
+Explication of how to use this library and what it does
+
 ## Link of the other React libraries
 
 - [react-datepicker](https://www.npmjs.com/package/react-datepicker)
